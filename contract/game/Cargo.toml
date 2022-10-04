@@ -1,0 +1,12 @@
+[package]
+name = "game"
+version = "1.0.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+hex = "0.4"
+near-sdk = "4.0.0"
+uint = { version = "0.9.3", default-features = false }
